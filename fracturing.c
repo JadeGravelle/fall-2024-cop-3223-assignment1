@@ -33,7 +33,7 @@ double calculateDistance() {
 double calculatePerimeter() {
     double distance = calculateDistance();
 
-    // Assuming the perimeter is 4 times the distance (for a square, for example)
+    // Assuming the perimeter is 4 times the distance 
     double perimeter = 4 * distance;
 
     printf("The perimeter of the city encompassed by your request is %.2f\n", perimeter);
@@ -44,7 +44,7 @@ double calculatePerimeter() {
 double calculateArea() {
     double distance = calculateDistance();
 
-    // Assuming the area is the square of the distance (for a square, for example)
+    // Assuming the area is the square of the distance 
     double area = pow(distance, 2);
 
     printf("The area of the city encompassed by your request is %.2f\n", area);
