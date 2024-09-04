@@ -1,5 +1,9 @@
+// Name: Riley Gravelle 
+// UCFID: 5631932
+
 #include <stdio.h>
 #include <math.h>
+#define PI 3.14159
 
 // Function to get user input
 double askForUserInput(const char* point, const char* coordinate) {
