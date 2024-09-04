@@ -56,7 +56,7 @@ double calculateWidth() {
     double x1 = askForUserInput("Point #1", "x1");
     double x2 = askForUserInput("Point #2", "x2");
 
-    double width = fabs(x2 - x1);
+    double width = x2 - x1;
 
     printf("Point #1 entered: x1 = %.3f; y1 = (not needed)\n", x1);
     printf("Point #2 entered: x2 = %.3f; y2 = (not needed)\n", x2);
